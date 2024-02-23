@@ -18,7 +18,7 @@ The process performs the following activities:
 
 Unit tests are implemented
 
-## Second challenge
+## Second challenge (SQL)
 
 From a database, there are tables that contain information regarding the flights that take place in Mexico
 
