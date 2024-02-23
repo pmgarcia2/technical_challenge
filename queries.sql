@@ -1,4 +1,4 @@
--- Create 'aerolineas' tables and insert values
+-- Create 'aerolineas' table and insert values
 CREATE TABLE aerolineas (
     ID_AEROLINEA INT PRIMARY KEY,
     NOMBRE_AEROLINEA VARCHAR(50)
@@ -8,7 +8,7 @@ BULK INSERT aerolineas
 FROM 'C:\Users\paulm\OneDrive\Documentos\Trabajo\XalDigital\technical_challenge\tables\aerolineas.csv'
 WITH (FIELDTERMINATOR = ',', ROWTERMINATOR = '\n');
 
--- Create 'aeropuertos' tables and insert values
+-- Create 'aeropuertos' table and insert values
 CREATE TABLE aeropuertos (
     ID_AEROPUERTO INT PRIMARY KEY,
     NOMBRE_AEROPUERTO VARCHAR(50)
@@ -18,7 +18,7 @@ BULK INSERT aeropuertos
 FROM 'C:\Users\paulm\OneDrive\Documentos\Trabajo\XalDigital\technical_challenge\tables\aeropuertos.csv'
 WITH (FIELDTERMINATOR = ',', ROWTERMINATOR = '\n');
 
--- Create 'movimientos' tables and insert values
+-- Create 'movimientos' table and insert values
 CREATE TABLE movimientos (
     ID_MOVIMIENTO INT PRIMARY KEY,
     DESCRIPCION VARCHAR(10)
@@ -28,7 +28,7 @@ BULK INSERT movimientos
 FROM 'C:\Users\paulm\OneDrive\Documentos\Trabajo\XalDigital\technical_challenge\tables\movimientos.csv'
 WITH (FIELDTERMINATOR = ',', ROWTERMINATOR = '\n');
 
--- Create 'vuelos' tables and insert values
+-- Create 'vuelos' table and insert values
 CREATE TABLE vuelos (
     ID_AEROLINEA INT,
     ID_AEROPUERTO INT,
