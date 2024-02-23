@@ -30,34 +30,25 @@ Queries are made to answer a series of questions:
 
 # Results:
 
-Busiest airport: Benito Juarez and La Paz with 3 flights each.
-
-Airline with the highest number of flights: Aeromar and Interjet with 3 flights each.
-
-Day with the highest number of flights: 2021-02-05
-
-Airlines with more than 2 flights per day: None, a maximum of 2 flights per day.
+1. Busiest airport: Benito Juarez and La Paz with 3 flights each.
+2. Airline with the highest number of flights: Aeromar and Interjet with 3 flights each.
+3. Day with the highest number of flights: 2021-02-05
+4. Airlines with more than 2 flights per day: None, a maximum of 2 flights per day.
 
 # Steps to run the analysis:
 
-Clone the repository.
-
-Install the dependencies.
-
-Run the stackexchange_analysis.py script.
-
-See the results in the console.
+1. Clone the repository.
+2. Install the dependencies.
+3. Run the stackexchange_analysis.py script.
+4. See the results in the console.
 
 # Used technology:
 
-Python
-
-SQL Server
+* Python
+* SQL Server
 
 # Files:
 
-stackexchange_analysis.py: Main script that runs the analysis.
-
-test_functions.py: File containing the unit tests.
-
-queries.sql: Creating tables, inserting data and queries.
+* stackexchange_analysis.py: Main script that runs the analysis.
+* test_functions.py: File containing the unit tests.
+* queries.sql: Creating tables, inserting data and queries.
